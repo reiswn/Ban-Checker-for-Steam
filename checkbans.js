@@ -86,7 +86,7 @@ javascript:(function(){
                 span.innerHTML = text;
             } else {
                 span.style.color = 'rgb(43, 203, 64)';
-                span.innerHTML = 'No Bans for this player.';
+                span.innerHTML = 'Jogador sem Bans.';
             }
 
             friend.querySelector('.friendSmallText').appendChild(span);
